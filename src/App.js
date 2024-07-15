@@ -12,7 +12,7 @@ tg.close()
     <div className="App">
       work
       <button onClick={onClose}>Close</button>
-      Юра лох!
+      <h1 className='text'>Карпухин лох!</h1>
     </div>
   )
 };
