@@ -14,6 +14,6 @@ tg.close()
       <button onClick={onClose}>Close</button>
     </div>
   )
-}
+};
 
 export default App;
