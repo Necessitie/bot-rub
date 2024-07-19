@@ -7,6 +7,6 @@ body {
   background-color:var(--tg-theme-bg-color);
   color: var(--tg-theme-text-color);
 }
-.text{
-  font-size: 80px;
+h1{
+  font-size: 20px;
 }
