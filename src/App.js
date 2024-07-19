@@ -7,12 +7,12 @@ function App() {
   }, [])
   const onClose = () => {
 tg.close()
-const ad = document.querySelector("#text");
-const bt = "10"
+const ad = document.querySelector("#text");}
+const bt = "10";
 const close = () => {
-  ad.style.fontSize = ad.style.fontSize + 10;
+  ad.style.fontSize = ad.style.fontSize + bt;
 }
-  }
+  
   return (
     <div className="App">
       work
