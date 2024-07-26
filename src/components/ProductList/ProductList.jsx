@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import './ProductList.css';
-import ProductItem from "../PorductItem/ProductItem";
+import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hooks/useTelegram";
 import {useCallback, useEffect} from "react";
 
 const products = [
-    {id: '1', title: 'Машутка', price: "Бессценна)",description: 'Красивые глаза, прекрасная улыбка'},
+    {id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые'},
     {id: '2', title: 'Куртка', price: 12000, img: "../../photo/1.jpeg", description: 'Зеленого цвета, теплая'},
     {id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые'},
     {id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая'},
